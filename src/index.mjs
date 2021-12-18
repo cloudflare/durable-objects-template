@@ -1,4 +1,8 @@
-// Worker
+/*
+Worker (client) implementation. Durable Objects are only accessible from
+Cloudflare Workers, including other Durable Objects. In this (commented)
+example, a Cloudflare Worker calls the fetch method of the Durable Object
+implemented below.
 
 export default {
   async fetch(request, env) {
@@ -14,6 +18,7 @@ async function handleRequest(request, env) {
 
   return new Response("Durable Object 'A' count: " + count);
 }
+ */
 
 // Durable Object
 
