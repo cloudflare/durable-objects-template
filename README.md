@@ -8,6 +8,7 @@ A template for kick-starting a Cloudflare Workers project that uses Durable Obje
 
 This template is meant to be the simplest way to get started with Durable Objects, for developers who just want to be able to write some code without worrying about a JavaScript bundler. If you want to be able to bundle dependencies alongside your code, you're better off starting with one of the other Durable Objects templates:
 
+- TypeScript + Rollup + ES Modules: https://github.com/cloudflare/durable-objects-typescript-rollup-esm
 - Rollup + ES Modules: https://github.com/cloudflare/durable-objects-rollup-esm
 - Webpack + CommonJS Modules: https://github.com/cloudflare/durable-objects-webpack-commonjs
 
